@@ -46,4 +46,4 @@ def sub(a: int, b: int) -> int:
 
 
 def div(a: int, b: int) -> int:
-    pass
+    return a/b
