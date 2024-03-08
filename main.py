@@ -31,7 +31,7 @@ def get_user_data(row_num: int) -> str:
 
 
 def summ(a: int, b: int) -> int:
-    pass
+    return a + b
 
 
 def mul(a: int, b: int) -> int:
