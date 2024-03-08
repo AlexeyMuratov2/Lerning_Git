@@ -1,6 +1,6 @@
 class Dog:
     def bark(self) -> None:
-        pass
+        print('гаф-гаф')
 
 
 class Cat:
@@ -10,7 +10,7 @@ class Cat:
 
 class Cow:
     def moo(self) -> None:
-        pass
+        print('му-му')
 
 
 class Car:
@@ -39,7 +39,10 @@ def mul(a, b):
 
 
 def sub(a: int, b: int) -> int:
-    pass
+    try:
+        return a - b
+    except:
+        raise ValueError
 
 
 def div(a: int, b: int) -> int:
