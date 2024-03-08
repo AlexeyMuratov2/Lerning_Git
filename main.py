@@ -10,7 +10,7 @@ class Cat:
 
 class Cow:
     def moo(self) -> None:
-        pass
+        print('му-му')
 
 
 class Car:
