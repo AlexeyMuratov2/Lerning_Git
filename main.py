@@ -34,8 +34,9 @@ def summ(a: int, b: int) -> int:
     return a + b
 
 
-def mul(a: int, b: int) -> int:
-    pass
+def mul(a = input("Введите первое число "), b = input("Введите второе число ") ):
+    print(int(a) - int(b))
+    return int(a) - int(b)
 
 
 def sub(a: int, b: int) -> int:
@@ -44,3 +45,5 @@ def sub(a: int, b: int) -> int:
 
 def div(a: int, b: int) -> int:
     pass
+
+mul()
