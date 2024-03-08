@@ -35,7 +35,7 @@ def summ(a: int, b: int) -> int:
 
 
 def mul(a: int, b: int) -> int:
-    pass
+    return a * b
 
 
 def sub(a: int, b: int) -> int:
