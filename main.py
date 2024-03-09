@@ -47,3 +47,28 @@ def sub(a: int, b: int) -> int:
 
 def div(a: int, b: int) -> int:
     return a/b
+
+dog = Dog()
+dog.bark()
+
+cat = Cat()
+cat.meow()
+
+cow = Cow()
+cow.moo()
+
+honda = Car('sedan')
+print(honda.drive())
+
+v8 = Engine('honda')
+print(v8.repair())
+
+print(get_user_data(1))
+
+print(summ(5, 10))
+
+print(mul(5, 10))
+
+print(sub(10, 5))
+
+print(div(10, 5))
