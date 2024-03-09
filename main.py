@@ -5,7 +5,7 @@ class Dog:
 
 class Cat:
     def meow(self) -> None:
-        pass
+        print('мяу-мяу')
 
 
 class Cow:
@@ -15,11 +15,10 @@ class Cow:
 
 class Car:
     def __init__(self, mark: str):
-        pass
+        self.mark = mark
 
     def drive(self) -> None:
-        pass
-
+        print('врум-врум')
 
 class Engine(Car):
     def repair(self) -> None:
